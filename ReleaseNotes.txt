@@ -1,0 +1,68 @@
+Release notes 3.0
+
+- upload to github
+- added change for files
+- reset work
+
+Release notes 3.0.1
+
+- change cores
+- update setting
+- update rpc and blockindicies
+- added checkpoint
+  a. checkpoint cores
+  b. checkpoint payment_gate
+
+Release notes 3.0.2
+
+- checpoint added
+  - recover lost checkpoint
+  - updates new chain run and simple
+  - fixed chain
+- checkpoint 6/4/2018
+  - improve chain
+  - wallet log
+- checkpoint 6/5/2018
+  - added log
+  - improve wallet
+  - remove unecessary file
+
+Release notes 3.0.3
+
+- checkpoint 6/6/2018
+  - update transfer
+  - fixed update for autoremove transaction chain
+  - faster block
+
+- checkpoint 6/9/2018
+  - improve wallet from bytecoin models
+  - crypto patch from karbo
+  - upgrade core system with PoS and MN support
+
+Release notes 3.0.4
+
+- checkpoint 6/14/2018
+  - improve hash cores
+  - improve masternodes
+  - improve PoS
+  - super nodes increase rpc value
+  - remotes checkpoint
+  - dust test transaction
+  - long hash stop for solo on SN[Super Nodes][like gpu solos]
+  - block point added
+  - parent block fixed
+  - added confirmation log rpc
+  - security increases
+  - android support
+
+- checkpoint 6/15/2018
+  - revert work to checkpoint date 13
+  - ignore aliases bug
+  - ignore passwork on simple_wallet cuz bug on address
+  - made checkpoint today 12:00 pm
+
+- checkpoint 6/16/2018
+  - fixed alias as bug. removed!
+  - revert to old checkpoint. upgrade checkpoint level
+  - new string on daemon
+  - android fixed

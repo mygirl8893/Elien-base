@@ -1,0 +1,20 @@
+#include "ScopeExit.h"
+
+namespace Tools {
+
+ScopeExit::ScopeExit(std::function<void()>&& handler) :
+  m_handler(std::move(handler)),
+  m_cancelled(false) {
+}
+//------------------------------------------------------------- Seperator Code -------------------------------------------------------------//
+ScopeExit::~ScopeExit() {
+  if (!m_cancelled) {
+    m_handler();
+  }
+}
+//------------------------------------------------------------- Seperator Code -------------------------------------------------------------//
+void ScopeExit::cancel() {
+  m_cancelled = true;
+}
+//------------------------------------------------------------- Seperator Code -------------------------------------------------------------//
+}

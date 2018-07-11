@@ -1,19 +1,12 @@
-[![Build Status](https://travis-ci.org/FndNur1Labs/Catalyst-Evo.svg?branch=master)](https://travis-ci.org/FndNur1Labs/Catalyst-Evo)
-
 <h2>Introduction</h2>
 
 We’ve built a custom platform to Future of Cryptocurrency. CryptonoteEvo is a platform technology for next generation of cryptonight.
 
-Catalyst Coin is the most secure, stable, and decentralized platform amongst the thousands of digital currencies in the market today.
-Catalyst is an innovative, cryptographically-secured digital asset ledger based on blockchain technology. Developed in part from the core code behind Karbo.
+Elien Coin is the most secure, stable, and decentralized platform amongst the thousands of digital currencies in the market today.
+Elien is an innovative, cryptographically-secured digital asset ledger based on blockchain technology. Developed in part from the core code behind Karbo.
 
 <h2>We are trying to do things no cryptocurrency has ever done before. The Completly Masternode Solution in cryptonote world.</h2>
 
-For more details visit our Website :
-
-https://catalyst.cash
-
--= Building CatalystCoin =-
 
 <h2>On *nix:</h2>
 
@@ -49,8 +42,8 @@ sudo apt update
 
 sudo apt upgrade
 
-git clone https://github.com/CatalystCash/Catalyst-Evo.git catalyst
-cd catalyst
+git clone https://github.com/mygirl8893/Elien-base.git elien
+cd elien
 git submodule init
 git submodule update --remote
 make -j4
@@ -59,7 +52,7 @@ Note : If you need cmake version error please follow below setps.
 
 ```bash
 
-cd catalyst/modules/cmake
+cd elien/modules/cmake
 ./bootstrap && make && make install
 ```
 
@@ -76,8 +69,8 @@ http://www.boost.org/
 To build, change to a directory where this file is located, and run this commands: (VisualStudio 2017)
 
 ```bash
-git clone https://github.com/CatalystCash/Catalyst-Evo.git catalyst
-cd catalyst
+git clone https://github.com/mygirl8893/Elien-base.git elien
+cd elien
 git submodule init
 git submodule update --remote
 mkdir build && cd build && cmake .. -G "Visual Studio 15 Win64" ..
